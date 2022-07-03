@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <unistd.h>
+
+#include <stdlib.h>
 
 /**
  * main - Entry point
@@ -7,8 +8,6 @@
  */
 int main(void)
 {
-	char quote[] = "and that piece of art is useful\n - Dora Korpar, 2015-10-19";
-	write(2, qoute, sizeof(quote) - 1);
-
+	write(STDOUT_FILENO, "and that piece of art is useful\n - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
