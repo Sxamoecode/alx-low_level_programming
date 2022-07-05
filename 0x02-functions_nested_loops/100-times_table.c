@@ -26,15 +26,15 @@ void print_times_table(int n)
 	}
 	else if (c == 0 && p < 100)
 	{
-	printf(",  %d", p);
+	printf(", %d", p);
 	}
 	else if (c == 0 && p < 1000)
 	{
-	printf(",  %d", p);
+	printf(", %d", p);
 	}
 	else if (c == 0 && p >= 1000)
 	{
-	printf(", %d", p);
+	printf(",%d", p);
 	}
 	else
 	{
