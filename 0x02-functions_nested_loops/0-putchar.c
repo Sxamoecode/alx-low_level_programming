@@ -1,4 +1,5 @@
-#include "main.h"
+#include "main.h":wq
+
 
 /**
  * main - main function
@@ -8,14 +9,14 @@
 int main(void)
 {
 	char string[8] = "_putchar";
- 	int n = 0;
+	int n = 0;
 
- 	while (n < 8)
- 	{
-  	_putchar(string[n]);
-  	++n;
- 	}
+	while (n < 8)
+	{
+	_putchar(string[n]);
+	++n;
+	}
 
- 	_putchar(10);
- 	return (0);
+	_putchar(10);
+	return (0);
 }
