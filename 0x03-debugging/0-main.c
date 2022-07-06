@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main - tests function that prints if integer is positive or negative
@@ -13,14 +11,6 @@ int main(void)
 
 	i = 98;
 
-	srand(time(0));
-	i = rand() - RAND_MAX / 2;
 	positive_or_negative(i);
-	if (i > 0)
-		printf("%d is positive\n", i);
-	else if (i == 0)
-		printf("%d is zero\n", i);
-	else
-		printf("%d is negative\n", i);
 	return(0);
 }
