@@ -1,23 +1,24 @@
 #include "sam.h"
 
 /**
- * _isupper - A function that checks for uppercase character.
- * @c: An input character
- * Return: 1 if c is uppercase or 0 otherwise
+ * main - check the code.
+ *
+ * Return: Always 0.
  */
-int _isupper(int c)
+int main(void)
 {
-	char uppercase = 'A';
-	int isupper = 0;
+	char c;
 
-	for (; uppercase <= 'Z'; uppercase++)
-	{
-		if (c == uppercase)
-		{
-			isupper = 1;
-			break;
-		}
+	c = 'A';
+	if((c >= 65) && (c <= 90))
+	{	
+	printf("%c: %d\n", c, _isupper(c));
+	return(1)
 	}
-
-	return (isupper);
+	else
+	{
+	c = 'a';
+	printf("%c: %d\n", c, _isupper(c));
+	return (0);
+	}
 }
