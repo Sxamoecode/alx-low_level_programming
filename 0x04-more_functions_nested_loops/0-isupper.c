@@ -1,4 +1,4 @@
-#include "sam.h"
+#include "main.h"
 
 /**
  * main - check the code.
@@ -10,7 +10,7 @@ int main(void)
 	char c;
 
 	c = 'A';
-	if((c >= 65) && (c <= 90))
+	if(isupper(c))
 	{	
 	printf("%c: %d\n", c, _isupper(c));
 	return(1)
