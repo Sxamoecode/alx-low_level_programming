@@ -5,7 +5,7 @@
  * main - Entry point
  * Return: Always 0
  */
-int main(void)
+int positive_or_negative(void)
 {
 	int n;
 
