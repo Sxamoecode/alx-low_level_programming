@@ -24,7 +24,7 @@ int main(void)
 		}
 	}
 
-	<F5>printf("%li\n", quotient);
+	printf("%li\n", quotient);
 
 	return (0);
 }
