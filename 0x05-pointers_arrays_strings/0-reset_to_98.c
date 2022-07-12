@@ -1,10 +1,11 @@
 #include "main.h"
+#include <stdio.h>
 
 /** assign 98 to n
  * which was 402 before
  */
 
-int main(void)
+void reset_to_98(int *n);
 {
     int n, *ptr_n;
 
