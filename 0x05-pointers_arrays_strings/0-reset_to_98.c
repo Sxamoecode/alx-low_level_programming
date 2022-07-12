@@ -6,6 +6,7 @@
  */
 
 void reset_to_98(int *n);
+int main(void);
 {
     int n, *ptr_n;
 
@@ -14,5 +15,5 @@ void reset_to_98(int *n);
     ptr_n = &n;
     *ptr_n = 'b';
         printf("n=%d\n", n);
-    return 0;
+    return (0);
 }
