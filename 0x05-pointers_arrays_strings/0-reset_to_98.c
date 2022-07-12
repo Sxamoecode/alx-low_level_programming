@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 
 /** assign 98 to n
  * which was 402 before
