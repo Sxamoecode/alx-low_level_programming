@@ -5,7 +5,6 @@
  * which was 402 before
  */
 
-void reset_to_98(int *n);
 int main(void);
 {
     int n, *ptr_n;
