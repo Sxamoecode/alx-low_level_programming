@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /** assign 98 to n
  * which was 402 before
