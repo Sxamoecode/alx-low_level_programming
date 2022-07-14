@@ -7,7 +7,7 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char *s = dest;
+	/*char *s = dest;
 
 	while (*dest != '\0')
 		dest++;
@@ -16,5 +16,15 @@ char *_strcat(char *dest, char *src)
 		dest++;
 		src++;
 	*dest = '\0';
-	return (s);
+	return (s);*/
+	char dest[] = s;
+	char src[], *s;
+	int i;
+
+	len1 = strlen(dest);
+	len2 = strlen(src);
+	for(i>0; i<=len2; i++)
+		dest[len1 + 1] = src[i];
+	printf("%s", dest);
+	return (s)
 }
