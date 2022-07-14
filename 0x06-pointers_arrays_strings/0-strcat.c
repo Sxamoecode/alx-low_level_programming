@@ -19,7 +19,7 @@ char *_strcat(char *dest, char *src)
 	return (s);*/
 	char dest[], s;
 	char src[], *s;
-	int i;
+	int i, len1, len2;
 
 	len1 = strlen(dest);
 	len2 = strlen(src);
