@@ -17,14 +17,15 @@ char *_strcat(char *dest, char *src)
 		src++;
 	*dest = '\0';
 	return (s);*/
-	char dest[] = s;
+	char dest[], s;
 	char src[], *s;
 	int i;
 
 	len1 = strlen(dest);
 	len2 = strlen(src);
-	for(i>0; i<=len2; i++)
+	s = dest[];
+	for(i=0; i<=len2; i++)
 		dest[len1 + 1] = src[i];
 	printf("%s", dest);
-	return (s)
+	return (*s)
 }
