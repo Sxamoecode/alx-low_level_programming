@@ -7,6 +7,14 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	strcat(s1, s2);
-	Return (dest);
+	char *s = dest;
+
+	while (*dest != '\0')
+		dest++;
+	while (*src != '\0')
+		*dest = *src;
+		dest++;
+		src++;
+	*dest = '\0';
+	Return (s);
 }
