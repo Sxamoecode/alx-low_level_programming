@@ -2,12 +2,11 @@
 #include <string.h>
 
 /**
- * _memset - this memory set function
- * @s: memory space to be filled
- * @b: byte to fill with
- * @n: number of spaces to fill
- *
- * Return *s
+ * _memset -> this memory set function
+ * @s: string
+ * @b: a character
+ * @n: an integer
+ * Return: a string
  */
 char *_memset(char *s, char b, unsigned int n)
 {
