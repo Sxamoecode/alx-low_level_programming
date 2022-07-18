@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * memcpy: memory copy
- * @dist: is destination memory
+ * memcpy -> memory copy
+ * @dest: is destination memory
  * @src: is source memory
  * @n: number of bytes to be copied
  * Return: string copied from source
