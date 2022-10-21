@@ -3,6 +3,7 @@
 /**
  * hash_table_create - fuction that create a hash table
  * @size: size of table
+ *
  * Return: table
  */
 
@@ -19,7 +20,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 
 	table->size = size;
 	table->array = malloc(size * sizeof(hash_node_t *));
-	if (table->array)
+	if (table->array == NULL)
 	{
 		free(table);
 		return (NULL);
